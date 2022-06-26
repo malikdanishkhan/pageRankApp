@@ -171,6 +171,9 @@ function calculatePRFront(){
     });
    
 }
+    
+// Back-end Testing
+    
 // list.addNode(1);
 // list.addNode(2);
 // list.addNode(3);
@@ -184,11 +187,9 @@ function calculatePRFront(){
 // list.addEdge(3, 2);
 // list.addEdge(3, 4);
 // list.addEdge(4, 3);
-console.log(list);
-
-console.log(list.showNeighboringNodes(6));
-
-console.log(Object.keys(list.directedList));
+// console.log(list);
+// console.log(list.showNeighboringNodes(6));
+// console.log(Object.keys(list.directedList));
 
 
 
