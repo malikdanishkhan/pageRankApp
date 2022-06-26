@@ -2,10 +2,43 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
 App.js contains 
 - implementation of myGraph and it's functions
 - page rank algorithms
 - some html to take input from user and make calculations
+
+
+## myGraph implementation
+Constructor of myGraph creates two objects
+- directedList 
+- undirectedList
+
+## addNode()
+Each node (number) represents a unique website. 
+
+This function will take an input of a number and add it to our instance of my graph.
+
+For example: addNode(1) and addNode(2) addNode(3)
+
+will result in:   directedList = { 1 : [], 2 : [] , 3 : [] } and undirectedList { 1 : [], 2: [], 3 : []}
+
+## addEdge()
+An edge between 1 and 2 means website 2 has a link to website 1
+
+This function will take an input of two numbers and add the second number in the array of the first numbers key within the graph.
+
+
+For example: addEdge(1, 2)
+             addEdge(1, 3)
+
+will result in:   directedList = { 1 : [2, 3], 2 : [] , 3 : [] } and undirectedList { 1 : [2, 3], 2: [1] , 3 : [1] };
+
+## showNeighboringNodes()
+This function will take an input node (number) and return all the nodes it is pointing to and all the nodes it is being pointed from (directed and undirected)
+
+
 
 ## Available Scripts
 
