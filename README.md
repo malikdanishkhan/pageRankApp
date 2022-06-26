@@ -89,7 +89,7 @@ so node 1 has page rank value of 0.125
    
    Node 3 has the highest page rank value followed by node 4 then node 2 and finally node 1.
 
-## Available Scripts
+## Before starting the server
 
 After you have cloned the git repository. Please make sure the directory has node_module folder. 
 If it doesn't have the node_module folder.
