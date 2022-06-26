@@ -91,9 +91,14 @@ so node 1 has page rank value of 0.125
 
 ## Available Scripts
 
-In the project directory, you can run:
+After you have cloned the git repository. Please make sure the directory has node_module folder. 
+If it doesn't have the node_module folder.
+
+Enter 'npm install'
+
 
 ### `npm start`
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
