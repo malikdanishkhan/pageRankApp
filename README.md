@@ -76,8 +76,11 @@ The function will return
 The last element in the array of the values is the page rank calculation for that specific key (node) over the number of iterations passed.
 
 so node 1 has page rank value of 0.125
+
    node 2 has page rank value of 0.166
+   
    node 3 has page rank value of 0.375
+   
    node 4 has page rank value of 0.333
    
    Node 3 has the highest page rank value followed by node 4 then node 2 and finally node 1.
