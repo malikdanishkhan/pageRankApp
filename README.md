@@ -75,6 +75,7 @@ The function will return
 4 : 0.25,0.3333333333333333,0.3333333333333333
 
 
+## Results
 
 The last element in the array of the values is the page rank calculation for that specific key (node) over the number of iterations passed.
 
