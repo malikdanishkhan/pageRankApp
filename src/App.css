@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#root{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  padding-left: 50px;
+}
+
+#root p, h1, h3{
+  color: yellow;
+}
+
+span{
+  color: yellow;
+}
+
+#neighborNodeValue{
+  padding-left: 25px;
+  font-size: 30px;
 }
