@@ -53,6 +53,35 @@ For example: when 4 is passed into showNeighboringNodes() -> it will return : [2
           when 2 is passed into showNeighboringNodes() -> it will return = [1, 3, 4]
 
 
+## pageRank()
+
+This function takes in two parameters
+- myGraph list we created
+- number of iterations
+
+It then finds the page rank values for each node over number of iterations passed into the function.
+
+For example: if we pass in the myGraph instance we have so far with number of iterations = 2;
+
+The function will return
+
+1 : 0.25,0.08333333333333333,0.125
+
+2 : 0.25,0.20833333333333331,0.16666666666666666
+
+3 : 0.25,0.375,0.375
+
+4 : 0.25,0.3333333333333333,0.3333333333333333
+
+The last element in the array of the values is the page rank calculation for that specific key (node) over the number of iterations passed.
+
+so node 1 has page rank value of 0.125
+   node 2 has page rank value of 0.166
+   node 3 has page rank value of 0.375
+   node 4 has page rank value of 0.333
+   
+   Node 3 has the highest page rank value followed by node 4 then node 2 and finally node 1.
+
 ## Available Scripts
 
 In the project directory, you can run:
