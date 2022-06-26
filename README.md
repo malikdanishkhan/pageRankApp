@@ -59,6 +59,7 @@ This function takes in two parameters
 - myGraph list we created
 - number of iterations
 
+
 It then finds the page rank values for each node over number of iterations passed into the function.
 
 For example: if we pass in the myGraph instance we have so far with number of iterations = 2;
@@ -72,6 +73,8 @@ The function will return
 3 : 0.25,0.375,0.375
 
 4 : 0.25,0.3333333333333333,0.3333333333333333
+
+
 
 The last element in the array of the values is the page rank calculation for that specific key (node) over the number of iterations passed.
 
