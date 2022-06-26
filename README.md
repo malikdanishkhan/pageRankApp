@@ -48,9 +48,7 @@ result in: directedList = { 1 : [2, 3], 2 : [4] , 3 : [1, 2 , 4], 4 : [3] } and 
 ## showNeighboringNodes()
 This function will take an input node (number) and return all the nodes it is pointing to and all the nodes it is being pointed from (directed and undirected)
 
-For example: when 4 is passed into showNeighboringNodes()
-
-it will return : [2, 3] since these are the nodes it is pointing too or being pointed from
+For example: when 4 is passed into showNeighboringNodes() -> it will return : [2, 3] since these are the nodes it is pointing too or being pointed from
 
           when 2 is passed into showNeighboringNodes() -> it will return = [1, 3, 4]
 
