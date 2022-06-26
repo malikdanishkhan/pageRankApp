@@ -20,9 +20,14 @@ Each node (number) represents a unique website.
 
 This function will take an input of a number and add it to our instance of my graph.
 
-For example: addNode(1) and addNode(2) addNode(3)
+For example: addNode(1)
+             addNode(2) 
+             addNode(3)
+             addNode(4)
 
-will result in:   directedList = { 1 : [], 2 : [] , 3 : [] } and undirectedList { 1 : [], 2: [], 3 : []}
+will result in:   directedList = { 1 : [], 2 : [] , 3 : [] , 4 : [] } and undirectedList { 1 : [], 2: [], 3 : [], 4 : [] }
+
+creating key value pairs where key represents node and values an array of nodes it is pointing to.
 
 ## addEdge()
 An edge between 1 and 2 means website 2 has a link to website 1
@@ -32,12 +37,22 @@ This function will take an input of two numbers and add the second number in the
 
 For example: addEdge(1, 2)
              addEdge(1, 3)
+             addEdge(2, 4)
+             addEdge(3, 1)
+             addEdge(3, 2)
+             addEdge(3, 4)
+             addEdge(4, 3)
 
-will result in:   directedList = { 1 : [2, 3], 2 : [] , 3 : [] } and undirectedList { 1 : [2, 3], 2: [1] , 3 : [1] };
+result in: directedList = { 1 : [2, 3], 2 : [4] , 3 : [1, 2 , 4], 4 : [3] } and undirectedList { 1 : [2, 3], 2: [1, 3, 4] , 3 : [1, 2, 4], 4 : [2, 3] };
 
 ## showNeighboringNodes()
 This function will take an input node (number) and return all the nodes it is pointing to and all the nodes it is being pointed from (directed and undirected)
 
+For example: when 4 is passed into showNeighboringNodes()
+
+it will return : [2, 3] since these are the nodes it is pointing too or being pointed from
+
+          when 2 is passed into showNeighboringNodes() -> it will return = [1, 3, 4]
 
 
 ## Available Scripts
