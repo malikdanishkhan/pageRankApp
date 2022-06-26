@@ -71,22 +71,19 @@ class myGraph {
                 if ((this.containsDuplicates(this.undirectedList[finalNode], initialNode)) == false) {
                     this.undirectedList[finalNode].push(initialNode);
                 }
-
             }
 
         } else {
             console.log("wrong input")
         }
-
     }
 
-
+    // Returns the array of nodes(values) for the input node(key)
     showNeighboringNodes(node) {
         // return the array corresponding to the value of node within graph
         // i.e the neighboring nodes
         return this.undirectedList[node];
     }
-
 }
 
 // create an instance of myGraph
